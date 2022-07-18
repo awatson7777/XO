@@ -36,6 +36,7 @@ public class Move {
             column = computerMove.nextInt(3);
         }
         board[row][column] = turn();
+        System.out.println("The computer has played this move!");
     }
 
     public static String turn() {

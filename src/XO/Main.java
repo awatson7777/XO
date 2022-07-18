@@ -21,7 +21,6 @@ public class Main {
         printBoard();
         playerMove();
         printBoard();
-        System.out.println("The computer has played this move!");
         computerMove();
         printBoard();
     }
