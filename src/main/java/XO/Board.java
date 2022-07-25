@@ -12,6 +12,15 @@ public class Board {
         }
     }
 
+    // Print out the board.
+    /* |---|---|---|
+       | - | - | - |
+       |-----------|
+       | - | - | - |
+       |-----------|
+       | - | - | - |
+       |---|---|---|*/
+
     public static void printBoard() {
 
         for (int i = 0; i < board.length; i++) {
